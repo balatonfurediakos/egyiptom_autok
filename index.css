@@ -1,0 +1,64 @@
+.jobbra {
+    float: right;
+}
+
+.balra {
+    float: left;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 2rem;
+    color: brown;
+}
+
+.jobbcim {
+    text-align: right;
+}
+
+.balcim {
+    text-align: left;
+}
+
+img {
+    padding: 1rem;
+}
+
+p {
+    color: cornsilk;
+    padding-top: 1rem;
+    text-align: justify;
+}
+
+div {
+    padding-bottom: 3rem;
+}
+.indexbody{
+    background-color: beige;
+}
+
+.autokbody{
+    background-color: black;
+}
+.egyiptombody {
+    background-image: url(egyiptomkepek/egyiptomihatter.jpg);
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+#nev{
+    color: darkblue;
+    text-align: center;
+}
+#balhref{
+    text-align: left;
+}
+#jobbhref{
+    text-align: right;
+}
+
+
