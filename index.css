@@ -1,3 +1,4 @@
+/* autok formazas */
 .jobbra {
     float: right;
 }
@@ -6,22 +7,36 @@
     float: left;
 }
 
+.jobbcim {
+    text-align: right;
+    color: rgb(50, 113, 207);
+}
+
+.balcim {
+    text-align: left;
+    color: rgb(50, 113, 207);
+}
+.autokbody{
+    background-color: rgb(36, 36, 131);
+}
+.autokdiv{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background-color: rgb(206, 235, 235);
+}
+.autoktext{
+    color: rgb(50, 113, 207);
+}
+/* altalanos formazas */
+
 h1 {
-    color: red;
+    color: brown;
     text-align: center;
 }
 
 h2 {
     padding-top: 2rem;
     color: brown;
-}
-
-.jobbcim {
-    text-align: right;
-}
-
-.balcim {
-    text-align: left;
 }
 
 img {
@@ -37,28 +52,41 @@ p {
 div {
     padding-bottom: 3rem;
 }
-.indexbody{
-    background-color: beige;
-}
 
-.autokbody{
-    background-color: black;
-}
+
+/* egyiptom formazas */
 .egyiptombody {
     background-image: url(egyiptomkepek/egyiptomihatter.jpg);
     text-align: center;
     padding-left: 5rem;
     padding-right: 5rem;
 }
-#nev{
+
+
+/* index formazas */
+.indexbody {
+    background-color: beige;
+}
+
+#nev {
     color: darkblue;
     text-align: center;
 }
-#balhref{
-    text-align: left;
-}
-#jobbhref{
-    text-align: right;
+
+#balhref {
+    float: left;
 }
 
+#jobbhref {
+    float: right;
+}
 
+.egyiptomip {
+    color: brown;
+    size: 1px;
+}
+
+.egyiptomidiv {
+    background-color: rgb(219, 188, 109);
+    padding: 1rem;
+}
