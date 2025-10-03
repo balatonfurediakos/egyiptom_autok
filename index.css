@@ -1,10 +1,12 @@
 /* autok formazas */
-.jobbra {
+.ajobbra {
     float: right;
+    padding: 1rem;
 }
 
-.balra {
+.abalra {
     float: left;
+    padding: 1rem;
 }
 
 .jobbcim {
@@ -16,17 +18,27 @@
     text-align: left;
     color: rgb(50, 113, 207);
 }
-.autokbody{
+
+.autokbody {
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     background-color: rgb(36, 36, 131);
 }
-.autokdiv{
+
+.autokdiv {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     padding-right: 3rem;
     padding-left: 3rem;
     background-color: rgb(206, 235, 235);
 }
-.autoktext{
+
+.autoktext {
     color: rgb(50, 113, 207);
 }
+
 /* altalanos formazas */
 
 h1 {
@@ -35,13 +47,9 @@ h1 {
 }
 
 h2 {
-    padding-top: 2rem;
     color: brown;
 }
 
-img {
-    padding: 1rem;
-}
 
 p {
     color: cornsilk;
@@ -52,16 +60,43 @@ p {
 div {
     padding-bottom: 3rem;
 }
+.ahr{
+    border-color:rgb(50, 113, 207);
+}
 
 
 /* egyiptom formazas */
+
 .egyiptombody {
     background-image: url(egyiptomkepek/egyiptomihatter.jpg);
     text-align: center;
     padding-left: 5rem;
     padding-right: 5rem;
 }
+.egyiptomihr{
+    border-color: brown;
+}
+.ejobbra {
+    float: right;
+    border-style: dashed;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.ebalra {
+    float: left;
+    border-style: dashed;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.egyiptomip {
+    color: brown;
+    size: 1px;
+}
 
+.egyiptomidiv {
+    background-color: rgb(219, 188, 109);
+    padding: 1rem;
+}
 
 /* index formazas */
 .indexbody {
@@ -79,14 +114,4 @@ div {
 
 #jobbhref {
     float: right;
-}
-
-.egyiptomip {
-    color: brown;
-    size: 1px;
-}
-
-.egyiptomidiv {
-    background-color: rgb(219, 188, 109);
-    padding: 1rem;
 }
